@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container{
+  padding:20px;
+ 
+}
+.formContainer{
+  /* background-color:rgb(177, 225, 102); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction:column;
+  padding:10px;
+}
+.formContainer input{
+  padding:10px 12px;
+  outline: none;
+  border-radius:5px;
+  border:1px solid #cccc; 
+}
+.formContainer input:last-child{
+  margin-bottom: 100px;
+}
+
+.buttonContainer button{
+  padding:8px;
+  border-radius:6px;
+  border:1px solid #cccc;
+}
+.buttonContainer .add{
+  background-color: rgb(99, 213, 99);
+}
+.tableContainer{
+  /* background-color:rgb(180, 109, 246);*/
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.tableContainer table,tr,th,td{
+  border:1px solid #cccc;
+  border-collapse:collapse;
+}
+.tableContainer table{
+  width:90%;
+}
+th,td{
+  padding:5px;
+  text-align:center;
+}
+table button{
+  padding:5px 10px;
+  border-radius:5px;
+  border:1px solid #cccc;
+  cursor:pointer;
+}
+.editBtn{
+  background-color:rgb(247, 218, 59);
+}
+.deleteBtn{
+  background-color:rgb(241, 121, 121);
+}
+.actionBtns{
+  display: flex;
+  /* background-color:red; */
+  border: none;
+  justify-content: space-evenly;
+  
+}
+/* .editBtnGroup{
+  background-color:aquamarine;
+} */
+.editBtnGroup button:first-child{
+  background-color:greenyellow;
+  margin-right:10px;
+}
+.editBtnGroup button:last-child{
+  background-color:rgb(233, 129, 89);
+}
